@@ -4,11 +4,11 @@
     "slug": "company-info",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/customIcon.png",
+    "icon": "./assets/custom-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/customSplash.png",
+      "image": "./assets/custom-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/custom-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ankitxcoding.companyinfo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "69485e67-0d19-4552-89f2-77909525974f"
+      }
     }
   }
 }
